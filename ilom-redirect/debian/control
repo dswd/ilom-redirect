@@ -1,0 +1,12 @@
+Source: ilom-redirect
+Section: misc
+Priority: extra
+Maintainer: Dennis Schwerdel <schwerdel@informatik.uni-kl.de>
+Build-Depends: debhelper (>= 7)
+Standards-Version: 3.8.3
+
+Package: ilom-redirect
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}, java6-runtime
+Description: ILOM Redirect
+ This is the same progrma that the Sun ILOMs run via the web frontend.

@@ -1,0 +1,3 @@
+#!/bin/bash
+
+CLASSPATH="$CLASSAPTH:/usr/lib/java/ilom-redirect/JavaRConsole.jar:/usr/lib/java/ilom-redirect/RedirLib.jar:/usr/lib/java/ilom-redirect/linuxi386.jar" java com.ami.javarconsole.ui.FrameMain
